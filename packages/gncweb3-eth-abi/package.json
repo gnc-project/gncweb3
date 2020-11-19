@@ -1,0 +1,19 @@
+{
+  "name": "gncweb3-eth-abi",
+  "version": "1.0.8",
+  "description": "Web3 module encode and decode EVM in/output.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-eth-abi",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@ethersproject/abi": "5.0.0-beta.153",
+    "underscore": "^1.9.1",
+    "gncweb3-utils": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

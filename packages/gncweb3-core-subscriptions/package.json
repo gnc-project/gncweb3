@@ -1,0 +1,19 @@
+{
+  "name": "gncweb3-core-subscriptions",
+  "version": "1.0.8",
+  "description": "Manages web3 subscriptions. This is an internal package.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-core-subscriptions",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "eventemitter3": "^4.0.4",
+    "gncweb3-core-helpers": "^1.0.8",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

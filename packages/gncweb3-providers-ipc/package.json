@@ -1,0 +1,19 @@
+{
+  "name": "gncweb3-providers-ipc",
+  "version": "1.0.8",
+  "description": "Module to handle web3 RPC connections over IPC sockets.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-providers-ipc",
+  "types": "types/index.d.ts",
+  "main": "src/index.js",
+  "dependencies": {
+    "gncweb3-core-helpers": "^1.0.8",
+    "underscore": "^1.9.1",
+    "oboe": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "gncweb3-core-promievent",
+  "version": "1.0.8",
+  "description": "This package extends the EventEmitter with the Promise class to allow chaining as well as multiple final states of a function.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-core-promievent",
+  "main": "src/index.js",
+  "dependencies": {
+    "eventemitter3": "^4.0.4"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "LGPL-3.0"
+}

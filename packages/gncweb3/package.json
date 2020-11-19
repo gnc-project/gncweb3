@@ -1,0 +1,32 @@
+{
+  "name": "gncweb3",
+  "version": "1.0.8",
+  "description": "GNC JavaScript API",
+  "repository": "https://github.com/gnc-project/gncweb3",
+  "bugs": {
+      "url": "https://github.com/gnc-project/gncweb3/issues"
+  },
+  "keywords": [
+      "gncweb3",
+      "JavaScript",
+      "API"
+  ],
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types",
+      "postinstall": "node angular-patch.js"
+  },
+  "dependencies": {
+    "gncweb3-core": "^1.0.8",
+    "gncweb3-eth-personal": "^1.0.8",
+    "gncweb3-eth": "^1.0.8",
+    "gncweb3-utils": "^1.0.8",
+    "gncweb3-bzz": "^1.0.8",
+    "gncweb3-shh": "^1.0.8",
+    "gncweb3-net": "^1.0.8"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "LGPL-3.0"
+}

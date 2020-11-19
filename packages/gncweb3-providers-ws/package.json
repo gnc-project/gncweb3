@@ -1,0 +1,20 @@
+{
+  "name": "gncweb3-providers-ws",
+  "version": "1.0.8",
+  "description": "Module to handle web3 RPC connections over WebSockets.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-providers-ws",
+  "types": "types/index.d.ts",
+  "main": "src/index.js",
+  "dependencies": {
+    "underscore": "^1.9.1",
+    "gncweb3-core-helpers": "^1.0.8",
+    "eventemitter3": "^4.0.4",
+    "websocket": "^1.0.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

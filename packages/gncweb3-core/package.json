@@ -1,0 +1,26 @@
+{
+  "name": "gncweb3-core",
+  "version": "1.0.8",
+  "description": "gncweb3 core tools for sub-packages. This is an internal package.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-core",
+  "bugs": {
+      "url": "https://github.com/gnc-project/gncweb3/issues"
+  },
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "dependencies": {
+    "@types/bn.js": "^4.11.5",
+    "@types/node": "^12.12.6",
+    "gncweb3-core-method": "^1.0.8",
+    "gncweb3-core-requestmanager": "^1.0.8",
+    "gncweb3-utils": "^1.0.8",
+    "gncweb3-core-helpers": "^1.0.8",
+    "bignumber.js": "^9.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "LGPL-3.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gncweb3-eth-contract",
+  "version": "1.0.8",
+  "description": "Web3 module to interact with Ethereum smart contracts.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-eth-contract",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@types/bn.js": "^4.11.5",
+    "gncweb3-core": "^1.0.8",
+    "gncweb3-eth-abi": "^1.0.8",
+    "gncweb3-core-promievent": "^1.0.8",
+    "gncweb3-core-subscriptions": "^1.0.8",
+    "gncweb3-utils": "^1.0.8",
+    "gncweb3-core-helpers": "^1.0.8",
+    "underscore": "^1.9.1",
+    "gncweb3-core-method": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

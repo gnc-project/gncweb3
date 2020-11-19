@@ -1,0 +1,23 @@
+{
+  "name": "gncweb3-bzz",
+  "version": "1.0.8",
+  "description": "gncweb3 module to interact with the Swarm network.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-bzz",
+  "bugs": {
+      "url": "https://github.com/gnc-project/gncweb3/issues"
+  },
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+      "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.6",
+    "underscore": "^1.9.1",
+    "got": "^9.6.0",
+    "gncswarm-js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "LGPL-3.0"
+}

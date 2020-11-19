@@ -1,0 +1,22 @@
+{
+  "name": "gncweb3-eth-personal",
+  "version": "1.0.8",
+  "description": "Web3 module to interact with the gnc blockchain accounts stored in the node.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-eth-personal",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@types/node": "^12.12.6",
+    "gncweb3-core": "^1.0.8",
+    "gncweb3-core-helpers": "^1.0.8",
+    "gncweb3-net": "^1.0.8",
+    "gncweb3-core-method": "^1.0.8",
+    "gncweb3-utils": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+  },
+  "author": "",
+  "license": "LGPL-3.0"
+}

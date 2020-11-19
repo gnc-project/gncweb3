@@ -1,0 +1,17 @@
+{
+  "name": "gncweb3-core-requestmanager",
+  "version": "1.0.8",
+  "description": "Web3 module to handle requests to external providers.",
+  "repository": "https://github.com/gnc-project/gncweb3/tree/master/packages/gncweb3-core-requestmanager",
+  "main": "src/index.js",
+  "dependencies": {
+    "gncweb3-core-helpers": "^1.0.8",
+    "underscore": "^1.9.1",
+    "gncweb3-providers-ipc": "^1.0.8",
+    "gncweb3-providers-http": "^1.0.8",
+    "gncweb3-providers-ws": "^1.0.8"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "LGPL-3.0"
+}
