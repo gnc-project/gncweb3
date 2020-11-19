@@ -1,7 +1,7 @@
 {
-    "name": "web3.js",
+    "name": "gncweb3.js",
     "private": true,
-    "description": "Ethereum JavaScript API wrapper repository",
+    "description": "GNC JavaScript API wrapper repository",
     "license": "LGPL-3.0",
     "engines": {
         "node": ">=8.0.0"
@@ -9,7 +9,7 @@
     "main": "./packages/gncweb3/src/index.js",
     "bundlesize": [
         {
-            "path": "./packages/gncweb3/dist/web3.min.js",
+            "path": "./packages/gncweb3/dist/gncweb3.min.js",
             "maxSize": "1.5 mB",
             "compression": "none"
         }
@@ -110,10 +110,9 @@
         "crypto-js": "^3.1.9-1",
         "decache": "^4.6.0",
         "dependency-check": "^4.1.0",
-        "ethereumjs-common": "^1.3.2",
-        "ethereumjs-tx": "^2.1.1",
-        "ethers": "4.0.33",
-        "ethjs-signer": "^0.1.1",
+        "ethgncjs-common": "^1.0.4",
+        "ethgncjs-tx": "^1.0.4",
+        "gncweb3": "^1.0.8",
         "ganache-cli": "^6.7.0",
         "geth-dev-assistant": "^0.1.5",
         "jshint": "^2.10.2",

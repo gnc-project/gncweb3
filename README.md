@@ -19,14 +19,14 @@ npm install gncweb3
 
 ### In the Browser
 
-Use the prebuilt `dist/web3.min.js`, or
-build using the [web3.js][repo] repository:
+Use the prebuilt `dist/gncweb3.min.js`, or
+build using the [gncweb3.js][repo] repository:
 
 ```bash
 npm run build
 ```
 
-Then include `dist/web3.min.js` in your html file.
+Then include `dist/gncweb3.min.js` in your html file.
 This will expose `Web3` on the window object.
 
 
