@@ -2,30 +2,20 @@
   <img src="assets/logo/web3js.jpg" width="200" alt="web3.js" />
 </p>
 
-# web3.js - Ethereum JavaScript API
+# gncweb3.js - GNC JavaScript API
 
 [![Gitter][gitter-image]][gitter-url] [![StackExchange][stackexchange-image]][stackexchange-url] [![NPM Package Version][npm-image-version]][npm-url] [![NPM Package Downloads][npm-image-downloads]][npm-url] [![Build Status][actions-image]][actions-url] [![Dev Dependency Status][deps-dev-image]][deps-dev-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Lerna][lerna-image]][lerna-url] [![Netlify Status][netlify-image]][netlify-url]
 
-This is the Ethereum [JavaScript API][docs]
-which connects to the [Generic JSON-RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC) spec.
-
-You need to run a local or remote [Ethereum](https://www.ethereum.org/) node to use this library.
-
-Please read the [documentation][docs] for more.
+This is the GNC [JavaScript API][docs]
 
 ## Installation
 
 ### Node
 
 ```bash
-npm install web3
+npm install gncweb3
 ```
 
-### Yarn
-
-```bash
-yarn add web3
-```
 
 ### In the Browser
 
@@ -39,23 +29,12 @@ npm run build
 Then include `dist/web3.min.js` in your html file.
 This will expose `Web3` on the window object.
 
-Or via jsDelivr CDN:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-```
-
-UNPKG:
-
-```html
-<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
-```
 
 ## Usage
 
 ```js
 // In Node.js
-const Web3 = require('web3');
+const Web3 = require('gncweb3');
 
 let web3 = new Web3('ws://localhost:8546');
 console.log(web3);
@@ -88,7 +67,7 @@ We support types within the repo itself. Please open an issue here if you find a
 You can use `web3.js` as follows:
 
 ```typescript
-import Web3 from 'web3';
+import Web3 from 'gncweb3';
 const web3 = new Web3('ws://localhost:8546');
 ```
 
@@ -132,47 +111,3 @@ npm run build
 npm test
 ```
 
-### Contributing
-
-Please follow the [Contribution Guidelines](./CONTRIBUTIONS.md) and [Review Guidelines](./REVIEW.md).
-
-This project adheres to the [Release Guidelines](./REVIEW.md).
-
-### Community
-
--   [Gitter][gitter-url]
--   [StackExchange][stackexchange-url]
-
-### Similar libraries in other languages
-
--   Haskell: [hs-web3](https://github.com/airalab/hs-web3)
--   Java: [web3j](https://github.com/web3j/web3j)
--   PHP: [web3.php](https://github.com/sc0Vu/web3.php)
--   Purescript: [purescript-web3](https://github.com/f-o-a-m/purescript-web3)
--   Python: [Web3.py](https://github.com/ethereum/web3.py)
--   Ruby: [ethereum.rb](https://github.com/EthWorks/ethereum.rb)
--   Scala: [web3j-scala](https://github.com/mslinn/web3j-scala)
-
-[repo]: https://github.com/ethereum/web3.js
-[docs]: http://web3js.readthedocs.io/
-[npm-image-version]: https://img.shields.io/npm/v/web3.svg
-[npm-image-downloads]: https://img.shields.io/npm/dm/web3.svg
-[npm-url]: https://npmjs.org/package/web3
-[actions-image]: https://github.com/ethereum/web3.js/workflows/Build/badge.svg
-[actions-url]: https://github.com/ethereum/web3.js/actions
-[deps-dev-image]: https://david-dm.org/ethereum/web3.js/1.x/dev-status.svg
-[deps-dev-url]: https://david-dm.org/ethereum/web3.js/1.x?type=dev
-[dep-dev-image]: https://david-dm.org/ethereum/web3.js/dev-status.svg
-[dep-dev-url]: https://david-dm.org/ethereum/web3.js#info=devDependencies
-[coveralls-image]: https://coveralls.io/repos/ethereum/web3.js/badge.svg?branch=1.x
-[coveralls-url]: https://coveralls.io/r/ethereum/web3.js?branch=1.x
-[waffle-image]: https://badge.waffle.io/ethereum/web3.js.svg?label=ready&title=Ready
-[waffle-url]: https://waffle.io/ethereum/web3.js
-[gitter-image]: https://badges.gitter.im/Join%20Chat.svg
-[gitter-url]:  https://gitter.im/ethereum/web3.js
-[lerna-image]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
-[lerna-url]: https://lerna.js.org/
-[netlify-image]: https://api.netlify.com/api/v1/badges/1fc64933-d170-4939-8bdb-508ecd205519/deploy-status
-[netlify-url]: https://app.netlify.com/sites/web3-staging/deploys
-[stackexchange-image]: https://img.shields.io/badge/web3js-stackexchange-brightgreen
-[stackexchange-url]: https://ethereum.stackexchange.com/questions/tagged/web3js
